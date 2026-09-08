@@ -1,0 +1,70 @@
+.task-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.task-title input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-actions {
+    
+  display: flex;
+  gap: 8px;
+}
+
+.edit-btn {
+  border: none;
+  background: #3b82f6;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #2563eb;
+}
+
+.delete-btn {
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #e63939;
+}
+.edit-form {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.edit-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.save-btn {
+  background: #22c55e !important;
+}
+
+.cancel-btn {
+  background: #777 !important;
+}
